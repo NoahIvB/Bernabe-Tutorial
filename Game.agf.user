@@ -19,7 +19,7 @@
   </Component>
   <WorkspaceState>
     <LastBuildConfiguration>Debug</LastBuildConfiguration>
-    <LastBuildGameFileName xml:space="preserve">DataFile=Bernabe Tutorial,Windows=Bernabe Tutorial,</LastBuildGameFileName>
+    <LastBuildGameFileName xml:space="preserve">DataFile=Bernabe Tutorial,Windows=Bernabe Tutorial,_Debug=Bernabe Tutorial,</LastBuildGameFileName>
     <RequiresRebuild>False</RequiresRebuild>
   </WorkspaceState>
 </AGSEditorUserData>

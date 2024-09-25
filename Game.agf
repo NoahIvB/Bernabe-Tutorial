@@ -1917,7 +1917,7 @@
           </GUIMain>
           <GUIMain>
             <TextWindowGUI>
-              <BackgroundColor>19248</BackgroundColor>
+              <BackgroundColor>60913</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>7</ID>
               <Name>gTextBorder</Name>
@@ -1928,121 +1928,121 @@
               <GUITextWindowEdge>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Height>10</Height>
+                <Height>9</Height>
                 <ID>0</ID>
-                <Image>2150</Image>
+                <Image>64</Image>
                 <Left>0</Left>
                 <Locked>False</Locked>
                 <Name />
                 <Top>0</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>10</Width>
+                <Width>8</Width>
                 <ZOrder>0</ZOrder>
               </GUITextWindowEdge>
               <GUITextWindowEdge>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Height>10</Height>
+                <Height>9</Height>
                 <ID>1</ID>
-                <Image>2155</Image>
+                <Image>58</Image>
                 <Left>0</Left>
                 <Locked>False</Locked>
                 <Name />
-                <Top>90</Top>
+                <Top>18</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>10</Width>
+                <Width>8</Width>
                 <ZOrder>1</ZOrder>
               </GUITextWindowEdge>
               <GUITextWindowEdge>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Height>10</Height>
+                <Height>9</Height>
                 <ID>2</ID>
-                <Image>2152</Image>
-                <Left>90</Left>
+                <Image>61</Image>
+                <Left>16</Left>
                 <Locked>False</Locked>
                 <Name />
                 <Top>0</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>10</Width>
+                <Width>8</Width>
                 <ZOrder>2</ZOrder>
               </GUITextWindowEdge>
               <GUITextWindowEdge>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Height>10</Height>
+                <Height>9</Height>
                 <ID>3</ID>
-                <Image>2157</Image>
-                <Left>90</Left>
+                <Image>62</Image>
+                <Left>16</Left>
                 <Locked>False</Locked>
                 <Name />
-                <Top>90</Top>
+                <Top>18</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>10</Width>
+                <Width>8</Width>
                 <ZOrder>3</ZOrder>
               </GUITextWindowEdge>
               <GUITextWindowEdge>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Height>10</Height>
+                <Height>9</Height>
                 <ID>4</ID>
-                <Image>2153</Image>
+                <Image>60</Image>
                 <Left>0</Left>
                 <Locked>False</Locked>
                 <Name />
-                <Top>40</Top>
+                <Top>9</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>10</Width>
+                <Width>8</Width>
                 <ZOrder>4</ZOrder>
               </GUITextWindowEdge>
               <GUITextWindowEdge>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Height>10</Height>
+                <Height>9</Height>
                 <ID>5</ID>
-                <Image>2154</Image>
-                <Left>90</Left>
+                <Image>59</Image>
+                <Left>16</Left>
                 <Locked>False</Locked>
                 <Name />
-                <Top>40</Top>
+                <Top>9</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>10</Width>
+                <Width>8</Width>
                 <ZOrder>5</ZOrder>
               </GUITextWindowEdge>
               <GUITextWindowEdge>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Height>10</Height>
+                <Height>9</Height>
                 <ID>6</ID>
-                <Image>2151</Image>
-                <Left>40</Left>
+                <Image>63</Image>
+                <Left>8</Left>
                 <Locked>False</Locked>
                 <Name />
                 <Top>0</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>10</Width>
+                <Width>8</Width>
                 <ZOrder>6</ZOrder>
               </GUITextWindowEdge>
               <GUITextWindowEdge>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Height>10</Height>
+                <Height>9</Height>
                 <ID>7</ID>
-                <Image>2156</Image>
-                <Left>40</Left>
+                <Image>57</Image>
+                <Left>8</Left>
                 <Locked>False</Locked>
                 <Name />
-                <Top>90</Top>
+                <Top>18</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>10</Width>
+                <Width>8</Width>
                 <ZOrder>7</ZOrder>
               </GUITextWindowEdge>
             </Controls>
@@ -3902,6 +3902,126 @@ stop
                       <OffsetY>0</OffsetY>
                       <ImportHeight>4</ImportHeight>
                       <ImportWidth>4</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="59" Width="8" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\Sprites\SpriteSheet-1.png-7.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>9</ImportHeight>
+                      <ImportWidth>8</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="60" Width="8" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\Sprites\SpriteSheet-1.png-8.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>9</ImportHeight>
+                      <ImportWidth>8</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="57" Width="8" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\Sprites\SpriteSheet-1.png-6.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>9</ImportHeight>
+                      <ImportWidth>8</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="58" Width="8" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\Sprites\SpriteSheet-1.png-5.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>9</ImportHeight>
+                      <ImportWidth>8</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="61" Width="8" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\Sprites\SpriteSheet-1.png-4.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>9</ImportHeight>
+                      <ImportWidth>8</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="62" Width="8" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\Sprites\SpriteSheet-1.png-2.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>9</ImportHeight>
+                      <ImportWidth>8</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="63" Width="8" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\Sprites\SpriteSheet-1.png-3.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>9</ImportHeight>
+                      <ImportWidth>8</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="64" Width="8" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\Sprites\SpriteSheet-1.png-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>9</ImportHeight>
+                      <ImportWidth>8</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>

@@ -1,0 +1,1 @@
+var gamefiles = ['audio.vox', 'Shades of Guilt.ags', 'acsetup.cfg'];

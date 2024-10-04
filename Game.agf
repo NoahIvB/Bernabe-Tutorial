@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>7</AudioIndexer>
+      <AudioIndexer>8</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets xml:space="preserve">Windows, Web</BuildTargets>
@@ -7050,6 +7050,19 @@ See KeyboardMovement.txt for details.
                 <SourceFileName xml:space="preserve">C:\Users\nbernabe\Downloads\Undertale - In My Way (Anticipation Slow Ver.).mp3</SourceFileName>
                 <Type>2</Type>
                 <FileLastModifiedDate>2024-10-04 17:19:21Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>5</ID>
+                <Index>8</Index>
+                <ScriptName>aMenuMusic</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\yourb\Downloads\Jazz Noir • 1 Hour Jazz Noir Saxophone Music • Jazz Noir Music Playlist [ ezmp3.cc ].mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-10-04 21:56:39Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>

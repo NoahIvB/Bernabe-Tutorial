@@ -681,7 +681,139 @@
     </Rooms>
     <GUIs>
       <GUIFolder Name="Main">
-        <SubFolders />
+        <SubFolders>
+          <GUIFolder Name="InventoryOpen">
+            <SubFolders />
+            <GUIs>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>91</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>133</Height>
+                  <ID>9</ID>
+                  <Left>50</Left>
+                  <Name>gFolderOpen01</Name>
+                  <OnClick />
+                  <PopupStyle>PopupModal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>35</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>223</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>90</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>133</Height>
+                  <ID>10</ID>
+                  <Left>50</Left>
+                  <Name>gfolderOpen02</Name>
+                  <OnClick />
+                  <PopupStyle>PopupModal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>35</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>223</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>89</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>133</Height>
+                  <ID>11</ID>
+                  <Left>50</Left>
+                  <Name>gFolderOpen03</Name>
+                  <OnClick />
+                  <PopupStyle>PopupModal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>35</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>223</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>88</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>133</Height>
+                  <ID>12</ID>
+                  <Left>50</Left>
+                  <Name>gFolderOpen04</Name>
+                  <OnClick />
+                  <PopupStyle>PopupModal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>35</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>223</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>87</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>133</Height>
+                  <ID>13</ID>
+                  <Left>50</Left>
+                  <Name>gFolderOpen05</Name>
+                  <OnClick />
+                  <PopupStyle>PopupModal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>35</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>223</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>86</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>133</Height>
+                  <ID>14</ID>
+                  <Left>50</Left>
+                  <Name>gFolderOpen06</Name>
+                  <OnClick />
+                  <PopupStyle>PopupModal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>35</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>223</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+            </GUIs>
+          </GUIFolder>
+        </SubFolders>
         <GUIs>
           <GUIMain>
             <NormalGUI>
@@ -2168,7 +2300,7 @@
             <ID>1</ID>
             <Image>2041</Image>
             <Name>iBlueCup</Name>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
               <Event Index="0" />
@@ -2186,7 +2318,7 @@
             <ID>2</ID>
             <Image>2042</Image>
             <Name>iKey</Name>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
               <Event Index="0" />
@@ -4677,6 +4809,96 @@ stop
                   <Sprite Slot="73" Width="223" Height="133" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\nbernabe\Downloads\folderUI-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>133</ImportHeight>
+                      <ImportWidth>223</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="86" Width="223" Height="133" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\Inventory-6.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>133</ImportHeight>
+                      <ImportWidth>223</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="87" Width="223" Height="133" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\Inventory-5.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>133</ImportHeight>
+                      <ImportWidth>223</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="88" Width="223" Height="133" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\Inventory-4.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>133</ImportHeight>
+                      <ImportWidth>223</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="89" Width="223" Height="133" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\Inventory-3.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>133</ImportHeight>
+                      <ImportWidth>223</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="90" Width="223" Height="133" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\Inventory-2.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>133</ImportHeight>
+                      <ImportWidth>223</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="91" Width="223" Height="133" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\Inventory-1.png.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>133</ImportHeight>

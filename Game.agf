@@ -818,7 +818,7 @@
           <GUIMain>
             <NormalGUI>
               <BackgroundColor>32089</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundImage>92</BackgroundImage>
               <BorderColor>32089</BorderColor>
               <Clickable>True</Clickable>
               <Height>14</Height>
@@ -846,7 +846,7 @@
                 <Name>lblGameName</Name>
                 <Text>@GAMENAME@</Text>
                 <TextAlignment>Left</TextAlignment>
-                <TextColor>19248</TextColor>
+                <TextColor>45218</TextColor>
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
@@ -864,7 +864,7 @@
                 <Name>lblScore</Name>
                 <Text xml:space="preserve">Score: @SCORE@</Text>
                 <TextAlignment>Left</TextAlignment>
-                <TextColor>19248</TextColor>
+                <TextColor>45218</TextColor>
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
@@ -877,12 +877,12 @@
                 <Font>0</Font>
                 <Height>13</Height>
                 <ID>2</ID>
-                <Left>0</Left>
+                <Left>9</Left>
                 <Locked>False</Locked>
                 <Name>lblOverHotspot</Name>
                 <Text>@OVERHOTSPOT@</Text>
                 <TextAlignment>Center</TextAlignment>
-                <TextColor>19248</TextColor>
+                <TextColor>45218</TextColor>
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
@@ -894,8 +894,8 @@
           <GUIMain>
             <NormalGUI>
               <BackgroundColor>32089</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
-              <BorderColor>32089</BorderColor>
+              <BackgroundImage>105</BackgroundImage>
+              <BorderColor>60907</BorderColor>
               <Clickable>True</Clickable>
               <Height>29</Height>
               <ID>1</ID>
@@ -919,21 +919,21 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>0</ID>
-                <Image>2100</Image>
+                <Image>95</Image>
                 <Left>1</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2101</MouseoverImage>
+                <MouseoverImage>94</MouseoverImage>
                 <Name>btnIconWalk</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick />
-                <PushedImage>2102</PushedImage>
+                <PushedImage>93</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>32</Width>
+                <Width>30</Width>
                 <ZOrder>0</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -944,21 +944,21 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>1</ID>
-                <Image>2104</Image>
+                <Image>96</Image>
                 <Left>33</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2105</MouseoverImage>
+                <MouseoverImage>97</MouseoverImage>
                 <Name>btnIconExamine</Name>
                 <NewModeNumber>1</NewModeNumber>
                 <OnClick />
-                <PushedImage>2106</PushedImage>
+                <PushedImage>98</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>32</Width>
+                <Width>30</Width>
                 <ZOrder>1</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -969,21 +969,21 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>2</ID>
-                <Image>2108</Image>
+                <Image>101</Image>
                 <Left>65</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2109</MouseoverImage>
+                <MouseoverImage>100</MouseoverImage>
                 <Name>btnIconInteract</Name>
                 <NewModeNumber>2</NewModeNumber>
                 <OnClick />
-                <PushedImage>2110</PushedImage>
+                <PushedImage>99</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>32</Width>
+                <Width>30</Width>
                 <ZOrder>2</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -994,21 +994,21 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>3</ID>
-                <Image>2112</Image>
+                <Image>104</Image>
                 <Left>97</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2113</MouseoverImage>
+                <MouseoverImage>103</MouseoverImage>
                 <Name>btnIconTalk</Name>
                 <NewModeNumber>3</NewModeNumber>
                 <OnClick />
-                <PushedImage>2114</PushedImage>
+                <PushedImage>102</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>32</Width>
+                <Width>30</Width>
                 <ZOrder>3</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1206,10 +1206,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>24</Height>
+                <Height>13</Height>
                 <ID>1</ID>
                 <Image>35</Image>
-                <Left>119</Left>
+                <Left>125</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>75</MouseoverImage>
                 <Name>btnInvSelect</Name>
@@ -1219,10 +1219,10 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>5</Top>
+                <Top>19</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>27</Width>
+                <Width>15</Width>
                 <ZOrder>1</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -4340,6 +4340,186 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="93" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\WalkButton-1.png (2).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="94" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\WalkButton-1.png (1).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="95" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\WalkButton-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="97" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\LookButton-1.png (1).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="98" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\LookButton-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="96" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\LookButton-1.png (3).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="99" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\InteractButton-1.png (2).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="100" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\InteractButton-1.png (1).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="101" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\InteractButton-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="102" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\TalkButton-1.png (2).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="103" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\TalkButton-1.png (1).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="104" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\TalkButton-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="TextWindow">
@@ -4911,6 +5091,36 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="92" Width="320" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\folderUI-1.png-1.png (1).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>14</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="105" Width="320" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\folderUI-1.png-1.png (1)-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>29</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="Cursors">
@@ -5126,13 +5336,13 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="35" Width="27" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="35" Width="12" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>E:\Sprites\CursorPointer-1.png-1.png.png</FileName>
+                      <FileName>C:\Users\nbernabe\Downloads\Cursor-1.png.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>24</ImportHeight>
-                      <ImportWidth>27</ImportWidth>
+                      <ImportHeight>12</ImportHeight>
+                      <ImportWidth>12</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5141,13 +5351,13 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="74" Width="27" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="74" Width="12" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\nbernabe\Downloads\Cursor-3.png.png</FileName>
+                      <FileName>C:\Users\nbernabe\Downloads\Cursor-1.png (1).png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>24</ImportHeight>
-                      <ImportWidth>27</ImportWidth>
+                      <ImportHeight>12</ImportHeight>
+                      <ImportWidth>12</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5156,13 +5366,13 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="75" Width="27" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="75" Width="12" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\nbernabe\Downloads\Cursor-2.png.png</FileName>
+                      <FileName>C:\Users\nbernabe\Downloads\Cursor-1.png (2).png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>24</ImportHeight>
-                      <ImportWidth>27</ImportWidth>
+                      <ImportHeight>12</ImportHeight>
+                      <ImportWidth>12</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>

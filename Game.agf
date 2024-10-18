@@ -1019,21 +1019,21 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>4</ID>
-                <Image>2120</Image>
+                <Image>108</Image>
                 <Left>129</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2121</MouseoverImage>
+                <MouseoverImage>107</MouseoverImage>
                 <Name>btnIconInv</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnIconInv_Click</OnClick>
-                <PushedImage>2122</PushedImage>
+                <PushedImage>106</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>32</Width>
+                <Width>30</Width>
                 <ZOrder>4</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1044,21 +1044,21 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>5</ID>
-                <Image>2124</Image>
+                <Image>111</Image>
                 <Left>161</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2124</MouseoverImage>
+                <MouseoverImage>110</MouseoverImage>
                 <Name>btnIconCurInv</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnIconCurInv_Click</OnClick>
-                <PushedImage>2126</PushedImage>
+                <PushedImage>109</PushedImage>
                 <Text>(INVSHR)</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>32</Width>
+                <Width>30</Width>
                 <ZOrder>5</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1069,21 +1069,21 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>6</ID>
-                <Image>2128</Image>
+                <Image>112</Image>
                 <Left>193</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2129</MouseoverImage>
+                <MouseoverImage>114</MouseoverImage>
                 <Name>btnIconSave</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnIconSave_Click</OnClick>
-                <PushedImage>2130</PushedImage>
+                <PushedImage>113</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>32</Width>
+                <Width>30</Width>
                 <ZOrder>6</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1094,21 +1094,21 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>7</ID>
-                <Image>2132</Image>
+                <Image>117</Image>
                 <Left>225</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2133</MouseoverImage>
+                <MouseoverImage>116</MouseoverImage>
                 <Name>btnIconLoad</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnIconLoad_Click</OnClick>
-                <PushedImage>2134</PushedImage>
+                <PushedImage>115</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>32</Width>
+                <Width>30</Width>
                 <ZOrder>7</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1119,21 +1119,21 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>8</ID>
-                <Image>2140</Image>
+                <Image>123</Image>
                 <Left>289</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2141</MouseoverImage>
+                <MouseoverImage>122</MouseoverImage>
                 <Name>btnIconExit</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnIconExit_Click</OnClick>
-                <PushedImage>2142</PushedImage>
+                <PushedImage>121</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>32</Width>
+                <Width>30</Width>
                 <ZOrder>8</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1144,21 +1144,21 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>9</ID>
-                <Image>2136</Image>
+                <Image>120</Image>
                 <Left>257</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2137</MouseoverImage>
+                <MouseoverImage>119</MouseoverImage>
                 <Name>btnIconPanel</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnIconPanel_Click</OnClick>
-                <PushedImage>2138</PushedImage>
+                <PushedImage>118</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>32</Width>
+                <Width>30</Width>
                 <ZOrder>9</ZOrder>
               </GUIButton>
             </Controls>
@@ -4508,6 +4508,276 @@ stop
                   <Sprite Slot="104" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\nbernabe\Downloads\TalkButton-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="106" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\InventoryButton-1.png (2).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="107" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\InventoryButton-1.png (1).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="108" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\InventoryButton-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="109" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\InventoryButton-1.png (5).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="110" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\InventoryButton-1.png (4).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="111" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\InventoryButton-1.png (3).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="112" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\SaveButton-1.png (2).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="113" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\SaveButton-1.png (1).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="114" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\SaveButton-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="115" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\LoadButton-1.png (2).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="116" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\LoadButton-1.png (1).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="117" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\LoadButton-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="118" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\SettingsButton-1.png (2).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="119" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\SettingsButton-1.png (1).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="120" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\SettingsButton-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="121" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\ExitButton-1.png (2).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="122" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\ExitButton-1.png (1).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="123" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\nbernabe\Downloads\ExitButton-1.png.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>

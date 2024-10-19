@@ -676,6 +676,10 @@
             <Description IsNull="True" />
             <Number>6</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>7</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -3142,6 +3146,36 @@ stop
                 <Say>False</Say>
                 <Show>True</Show>
                 <Text xml:space="preserve">Go back inside?</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text>Back</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>7</ID>
+            <Name>dWaspNestEntrance</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+run-script 6
+stop
+@2
+stop
+
+
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">Head Inside?</Text>
               </DialogOption>
               <DialogOption>
                 <ID>2</ID>
@@ -6599,6 +6633,366 @@ stop
                   <Sprite Slot="72" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>C:\Users\nbernabe\Downloads\W2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="124" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-23.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="125" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-22.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="126" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-21.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="127" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-20.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="128" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-19.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="129" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-18.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="130" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-17.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="131" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-16.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="132" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-15.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="133" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-14.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="134" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-13.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="135" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-12.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="136" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-11.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="137" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-10.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="138" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-9.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="139" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-8.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="140" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-7.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="141" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-6.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="142" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-5.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="143" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-4.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="144" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-3.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="145" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-2.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="146" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 2-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="147" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\yourb\Downloads\cutscene 1-1.png.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>200</ImportHeight>

@@ -684,6 +684,10 @@
             <Description IsNull="True" />
             <Number>8</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>9</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -2487,6 +2491,662 @@
                     <ZOrder>2</ZOrder>
                   </GUILabel>
                 </Controls>
+              </GUIMain>
+            </GUIs>
+          </GUIFolder>
+          <GUIFolder Name="Minigame">
+            <SubFolders />
+            <GUIs>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>190</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>24</ID>
+                  <Left>0</Left>
+                  <Name>gGame1</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>189</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>25</ID>
+                  <Left>0</Left>
+                  <Name>gGame2</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>188</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>26</ID>
+                  <Left>0</Left>
+                  <Name>gGame3</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>187</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>27</ID>
+                  <Left>0</Left>
+                  <Name>gGame4</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>186</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>28</ID>
+                  <Left>0</Left>
+                  <Name>gGame5</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>185</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>29</ID>
+                  <Left>0</Left>
+                  <Name>gGame6</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>184</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>30</ID>
+                  <Left>0</Left>
+                  <Name>gGame7</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>183</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>31</ID>
+                  <Left>0</Left>
+                  <Name>gGame8</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>182</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>32</ID>
+                  <Left>0</Left>
+                  <Name>gGame9</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>181</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>33</ID>
+                  <Left>0</Left>
+                  <Name>gGame10</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>180</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>34</ID>
+                  <Left>0</Left>
+                  <Name>gGame11</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>179</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>35</ID>
+                  <Left>0</Left>
+                  <Name>gGame12</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>178</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>36</ID>
+                  <Left>0</Left>
+                  <Name>gGame13</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>177</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>37</ID>
+                  <Left>0</Left>
+                  <Name>gGame14</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>176</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>38</ID>
+                  <Left>0</Left>
+                  <Name>gGame15</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>175</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>39</ID>
+                  <Left>0</Left>
+                  <Name>gGame16</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>174</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>40</ID>
+                  <Left>0</Left>
+                  <Name>gGame17</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>173</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>41</ID>
+                  <Left>0</Left>
+                  <Name>gGame18</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>172</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>42</ID>
+                  <Left>0</Left>
+                  <Name>gGame19</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>171</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>43</ID>
+                  <Left>0</Left>
+                  <Name>gGame20</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>170</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>44</ID>
+                  <Left>0</Left>
+                  <Name>gGame21</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>169</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>45</ID>
+                  <Left>0</Left>
+                  <Name>gGame22</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>168</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>46</ID>
+                  <Left>0</Left>
+                  <Name>gGame23</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>167</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>47</ID>
+                  <Left>0</Left>
+                  <Name>gGame24</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>166</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>48</ID>
+                  <Left>0</Left>
+                  <Name>gGame25</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>165</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>49</ID>
+                  <Left>0</Left>
+                  <Name>gGame26</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>164</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>50</ID>
+                  <Left>0</Left>
+                  <Name>gGame27</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>163</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>51</ID>
+                  <Left>0</Left>
+                  <Name>gGame28</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>162</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>52</ID>
+                  <Left>0</Left>
+                  <Name>gGame29</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>161</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>53</ID>
+                  <Left>0</Left>
+                  <Name>gGame30</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>160</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>500</Height>
+                  <ID>54</ID>
+                  <Left>0</Left>
+                  <Name>gGame31</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>351</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
               </GUIMain>
             </GUIs>
           </GUIFolder>
@@ -6785,7 +7445,1073 @@ stop
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="BackgroundObjects">
-                <SubFolders />
+                <SubFolders>
+                  <SpriteFolder Name="WaldoMinigame">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="156" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-35.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="157" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-34.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="158" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-33.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="159" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-32.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="160" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-31.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="161" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-30.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="162" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-29.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="163" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-28.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="164" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-27.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="165" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-26.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="166" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-25.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="167" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-24.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="168" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-23.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="169" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-22.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="170" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-21.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="171" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-20.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="172" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-19.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="173" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-18.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="174" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-17.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="175" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-16.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="176" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-15.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="177" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-14.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="178" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-13.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="179" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-12.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="180" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-11.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="181" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-10.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="182" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-9.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="183" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-8.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="184" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-7.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="185" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-6.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="186" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-5.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="187" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-4.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="188" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-3.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="189" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-2.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="190" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-1.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>500</ImportHeight>
+                          <ImportWidth>351</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="Cutscene1">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="124" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-23.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="125" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-22.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="126" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-21.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="127" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-20.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="128" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-19.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="129" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-18.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="130" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-17.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="131" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-16.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="132" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-15.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="133" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-14.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="134" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-13.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="135" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-12.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="136" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-11.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="137" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-10.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="138" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-9.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="139" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-8.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="140" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-7.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="141" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-6.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="142" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-5.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="143" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-4.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="144" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-3.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="145" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-2.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="146" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 2-1.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="WaldoCutscene">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="70" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\W4.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="71" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\W3.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="72" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\W2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="147" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\yourb\Downloads\cutscene 1-1.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="148" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Yuh-8.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="149" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Yuh-7.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="150" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Yuh-6.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="151" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Yuh-5.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="152" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Yuh-4.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="153" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Yuh-3.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="154" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Yuh-2.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="155" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Yuh-1.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                </SubFolders>
                 <Sprites>
                   <Sprite Slot="69" Width="48" Height="84" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
@@ -6794,531 +8520,6 @@ stop
                       <OffsetY>0</OffsetY>
                       <ImportHeight>84</ImportHeight>
                       <ImportWidth>48</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="70" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName>C:\Users\nbernabe\Downloads\W4.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="71" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName>C:\Users\nbernabe\Downloads\W3.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="72" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName>C:\Users\nbernabe\Downloads\W2.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="124" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-23.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="125" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-22.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="126" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-21.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="127" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-20.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="128" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-19.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="129" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-18.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="130" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-17.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="131" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-16.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="132" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-15.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="133" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-14.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="134" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-13.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="135" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-12.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="136" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-11.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="137" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-10.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="138" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-9.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="139" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-8.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="140" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-7.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="141" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-6.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="142" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-5.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="143" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-4.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="144" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-3.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="145" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-2.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="146" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 2-1.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="147" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\yourb\Downloads\cutscene 1-1.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="148" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\nbernabe\Downloads\Yuh-8.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="149" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\nbernabe\Downloads\Yuh-7.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="150" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\nbernabe\Downloads\Yuh-6.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="151" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\nbernabe\Downloads\Yuh-5.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="152" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\nbernabe\Downloads\Yuh-4.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="153" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\nbernabe\Downloads\Yuh-3.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="154" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\nbernabe\Downloads\Yuh-2.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="155" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>C:\Users\nbernabe\Downloads\Yuh-1.png.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>200</ImportHeight>
-                      <ImportWidth>320</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>

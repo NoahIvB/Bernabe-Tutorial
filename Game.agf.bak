@@ -703,14 +703,14 @@
                   <BackgroundImage>91</BackgroundImage>
                   <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>133</Height>
+                  <Height>159</Height>
                   <ID>9</ID>
                   <Left>50</Left>
                   <Name>gFolderOpen01</Name>
                   <OnClick />
                   <PopupStyle>PopupModal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
-                  <Top>35</Top>
+                  <Top>42</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
                   <Width>223</Width>
@@ -724,14 +724,14 @@
                   <BackgroundImage>90</BackgroundImage>
                   <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>133</Height>
+                  <Height>159</Height>
                   <ID>10</ID>
                   <Left>50</Left>
                   <Name>gfolderOpen02</Name>
                   <OnClick />
                   <PopupStyle>PopupModal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
-                  <Top>35</Top>
+                  <Top>42</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
                   <Width>223</Width>
@@ -745,14 +745,14 @@
                   <BackgroundImage>89</BackgroundImage>
                   <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>133</Height>
+                  <Height>159</Height>
                   <ID>11</ID>
                   <Left>50</Left>
                   <Name>gFolderOpen03</Name>
                   <OnClick />
                   <PopupStyle>PopupModal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
-                  <Top>35</Top>
+                  <Top>42</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
                   <Width>223</Width>
@@ -766,14 +766,14 @@
                   <BackgroundImage>88</BackgroundImage>
                   <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>133</Height>
+                  <Height>159</Height>
                   <ID>12</ID>
                   <Left>50</Left>
                   <Name>gFolderOpen04</Name>
                   <OnClick />
                   <PopupStyle>PopupModal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
-                  <Top>35</Top>
+                  <Top>42</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
                   <Width>223</Width>
@@ -787,14 +787,14 @@
                   <BackgroundImage>87</BackgroundImage>
                   <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>133</Height>
+                  <Height>159</Height>
                   <ID>13</ID>
                   <Left>50</Left>
                   <Name>gFolderOpen05</Name>
                   <OnClick />
                   <PopupStyle>PopupModal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
-                  <Top>35</Top>
+                  <Top>42</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
                   <Width>223</Width>
@@ -808,14 +808,14 @@
                   <BackgroundImage>86</BackgroundImage>
                   <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>133</Height>
+                  <Height>159</Height>
                   <ID>14</ID>
                   <Left>50</Left>
                   <Name>gFolderOpen06</Name>
                   <OnClick />
                   <PopupStyle>PopupModal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
-                  <Top>35</Top>
+                  <Top>42</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
                   <Width>223</Width>
@@ -834,7 +834,7 @@
                   <BackgroundImage>147</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>200</Height>
+                  <Height>240</Height>
                   <ID>15</ID>
                   <Left>0</Left>
                   <Name>gCut1_1</Name>
@@ -855,7 +855,7 @@
                   <BackgroundImage>155</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>200</Height>
+                  <Height>240</Height>
                   <ID>16</ID>
                   <Left>0</Left>
                   <Name>gCut1_2</Name>
@@ -876,7 +876,7 @@
                   <BackgroundImage>154</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>200</Height>
+                  <Height>240</Height>
                   <ID>17</ID>
                   <Left>0</Left>
                   <Name>gCut1_3</Name>
@@ -897,7 +897,7 @@
                   <BackgroundImage>153</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>200</Height>
+                  <Height>240</Height>
                   <ID>18</ID>
                   <Left>0</Left>
                   <Name>gCut1_4</Name>
@@ -918,7 +918,7 @@
                   <BackgroundImage>152</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>200</Height>
+                  <Height>240</Height>
                   <ID>19</ID>
                   <Left>0</Left>
                   <Name>gCut1_5</Name>
@@ -939,7 +939,7 @@
                   <BackgroundImage>151</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>200</Height>
+                  <Height>240</Height>
                   <ID>20</ID>
                   <Left>0</Left>
                   <Name>gCut1_6</Name>
@@ -960,7 +960,7 @@
                   <BackgroundImage>150</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>200</Height>
+                  <Height>240</Height>
                   <ID>21</ID>
                   <Left>0</Left>
                   <Name>gCut1_7</Name>
@@ -981,7 +981,7 @@
                   <BackgroundImage>149</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>200</Height>
+                  <Height>240</Height>
                   <ID>22</ID>
                   <Left>0</Left>
                   <Name>gCut1_8</Name>
@@ -1002,7 +1002,7 @@
                   <BackgroundImage>148</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>200</Height>
+                  <Height>240</Height>
                   <ID>23</ID>
                   <Left>0</Left>
                   <Name>gCut1_9</Name>
@@ -1028,7 +1028,7 @@
                   <BackgroundImage>92</BackgroundImage>
                   <BorderColor>32089</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>14</Height>
+                  <Height>13</Height>
                   <ID>0</ID>
                   <Left>0</Left>
                   <Name>gStatusline</Name>
@@ -1046,7 +1046,7 @@
                     <Clickable>True</Clickable>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>13</Height>
+                    <Height>15</Height>
                     <ID>0</ID>
                     <Left>2</Left>
                     <Locked>False</Locked>
@@ -1064,7 +1064,7 @@
                     <Clickable>True</Clickable>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>13</Height>
+                    <Height>15</Height>
                     <ID>1</ID>
                     <Left>250</Left>
                     <Locked>False</Locked>
@@ -1082,7 +1082,7 @@
                     <Clickable>True</Clickable>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>13</Height>
+                    <Height>15</Height>
                     <ID>2</ID>
                     <Left>9</Left>
                     <Locked>False</Locked>
@@ -1104,7 +1104,7 @@
                   <BackgroundImage>105</BackgroundImage>
                   <BorderColor>60907</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>29</Height>
+                  <Height>30</Height>
                   <ID>1</ID>
                   <Left>0</Left>
                   <Name>gIconbar</Name>
@@ -1124,7 +1124,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>27</Height>
+                    <Height>32</Height>
                     <ID>0</ID>
                     <Image>95</Image>
                     <Left>1</Left>
@@ -1149,7 +1149,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>27</Height>
+                    <Height>32</Height>
                     <ID>1</ID>
                     <Image>96</Image>
                     <Left>33</Left>
@@ -1174,7 +1174,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>27</Height>
+                    <Height>32</Height>
                     <ID>2</ID>
                     <Image>101</Image>
                     <Left>65</Left>
@@ -1199,7 +1199,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>27</Height>
+                    <Height>32</Height>
                     <ID>3</ID>
                     <Image>104</Image>
                     <Left>97</Left>
@@ -1224,7 +1224,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>27</Height>
+                    <Height>32</Height>
                     <ID>4</ID>
                     <Image>108</Image>
                     <Left>129</Left>
@@ -1249,7 +1249,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>27</Height>
+                    <Height>32</Height>
                     <ID>5</ID>
                     <Image>111</Image>
                     <Left>161</Left>
@@ -1274,7 +1274,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>27</Height>
+                    <Height>32</Height>
                     <ID>6</ID>
                     <Image>112</Image>
                     <Left>193</Left>
@@ -1299,7 +1299,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>27</Height>
+                    <Height>32</Height>
                     <ID>7</ID>
                     <Image>117</Image>
                     <Left>225</Left>
@@ -1324,7 +1324,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>27</Height>
+                    <Height>32</Height>
                     <ID>8</ID>
                     <Image>123</Image>
                     <Left>289</Left>
@@ -1349,7 +1349,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>27</Height>
+                    <Height>32</Height>
                     <ID>9</ID>
                     <Image>120</Image>
                     <Left>257</Left>
@@ -1383,7 +1383,7 @@
                   <OnClick />
                   <PopupStyle>PopupModal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
-                  <Top>35</Top>
+                  <Top>42</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
                   <Width>223</Width>
@@ -1394,14 +1394,14 @@
                     <CharacterID>-1</CharacterID>
                     <Clickable>True</Clickable>
                     <Enabled>True</Enabled>
-                    <Height>120</Height>
+                    <Height>144</Height>
                     <ID>0</ID>
                     <ItemHeight>21</ItemHeight>
                     <ItemWidth>21</ItemWidth>
                     <Left>20</Left>
                     <Locked>False</Locked>
                     <Name>invCustom</Name>
-                    <Top>5</Top>
+                    <Top>6</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>75</Width>
@@ -1413,7 +1413,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>13</Height>
+                    <Height>15</Height>
                     <ID>1</ID>
                     <Image>35</Image>
                     <Left>125</Left>
@@ -1426,7 +1426,7 @@
                     <Text xml:space="preserve">New Button</Text>
                     <TextAlignment>TopCenter</TextAlignment>
                     <TextColor>16</TextColor>
-                    <Top>19</Top>
+                    <Top>22</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>15</Width>
@@ -1438,7 +1438,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>24</Height>
+                    <Height>28</Height>
                     <ID>2</ID>
                     <Image>78</Image>
                     <Left>119</Left>
@@ -1451,7 +1451,7 @@
                     <Text xml:space="preserve">New Button</Text>
                     <TextAlignment>TopCenter</TextAlignment>
                     <TextColor>16</TextColor>
-                    <Top>36</Top>
+                    <Top>43</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>27</Width>
@@ -1463,7 +1463,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>3</ID>
                     <Image>2160</Image>
                     <Left>119</Left>
@@ -1476,7 +1476,7 @@
                     <Text>Close</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>68</Top>
+                    <Top>81</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>71</Width>
@@ -1488,7 +1488,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>24</Height>
+                    <Height>28</Height>
                     <ID>4</ID>
                     <Image>84</Image>
                     <Left>157</Left>
@@ -1501,7 +1501,7 @@
                     <Text xml:space="preserve">New Button</Text>
                     <TextAlignment>TopCenter</TextAlignment>
                     <TextColor>16</TextColor>
-                    <Top>36</Top>
+                    <Top>43</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>27</Width>
@@ -1513,7 +1513,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>24</Height>
+                    <Height>28</Height>
                     <ID>5</ID>
                     <Image>81</Image>
                     <Left>157</Left>
@@ -1526,7 +1526,7 @@
                     <Text xml:space="preserve">New Button</Text>
                     <TextAlignment>TopCenter</TextAlignment>
                     <TextColor>16</TextColor>
-                    <Top>5</Top>
+                    <Top>6</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>27</Width>
@@ -1540,14 +1540,14 @@
                   <BackgroundImage>2167</BackgroundImage>
                   <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>157</Height>
+                  <Height>188</Height>
                   <ID>3</ID>
                   <Left>31</Left>
                   <Name>gPanel</Name>
                   <OnClick />
                   <PopupStyle>PopupModal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
-                  <Top>28</Top>
+                  <Top>33</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
                   <Width>259</Width>
@@ -1560,7 +1560,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>0</ID>
                     <Image>2160</Image>
                     <Left>8</Left>
@@ -1573,7 +1573,7 @@
                     <Text>Resume</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>110</Top>
+                    <Top>132</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>71</Width>
@@ -1585,7 +1585,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>1</ID>
                     <Image>2160</Image>
                     <Left>8</Left>
@@ -1598,7 +1598,7 @@
                     <Text>Save</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>5</Top>
+                    <Top>6</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>71</Width>
@@ -1610,7 +1610,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>2</ID>
                     <Image>2160</Image>
                     <Left>8</Left>
@@ -1623,7 +1623,7 @@
                     <Text>About</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>89</Top>
+                    <Top>106</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>71</Width>
@@ -1635,7 +1635,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>3</ID>
                     <Image>2160</Image>
                     <Left>8</Left>
@@ -1648,7 +1648,7 @@
                     <Text>Quit</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>68</Top>
+                    <Top>81</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>71</Width>
@@ -1660,7 +1660,7 @@
                     <Enabled>True</Enabled>
                     <HandleImage>2166</HandleImage>
                     <HandleOffset>-4</HandleOffset>
-                    <Height>10</Height>
+                    <Height>12</Height>
                     <ID>4</ID>
                     <Left>114</Left>
                     <Locked>False</Locked>
@@ -1668,7 +1668,7 @@
                     <MinValue>0</MinValue>
                     <Name>sldAudio</Name>
                     <OnChange>sldAudio_OnChange</OnChange>
-                    <Top>27</Top>
+                    <Top>32</Top>
                     <Translated>True</Translated>
                     <Value>100</Value>
                     <Visible>True</Visible>
@@ -1681,7 +1681,7 @@
                     <Enabled>True</Enabled>
                     <HandleImage>2166</HandleImage>
                     <HandleOffset>-4</HandleOffset>
-                    <Height>10</Height>
+                    <Height>12</Height>
                     <ID>5</ID>
                     <Left>114</Left>
                     <Locked>False</Locked>
@@ -1689,7 +1689,7 @@
                     <MinValue>0</MinValue>
                     <Name>sldVoice</Name>
                     <OnChange>sldVoice_OnChange</OnChange>
-                    <Top>56</Top>
+                    <Top>67</Top>
                     <Translated>True</Translated>
                     <Value>255</Value>
                     <Visible>True</Visible>
@@ -1702,7 +1702,7 @@
                     <Enabled>True</Enabled>
                     <HandleImage>2166</HandleImage>
                     <HandleOffset>-4</HandleOffset>
-                    <Height>10</Height>
+                    <Height>12</Height>
                     <ID>6</ID>
                     <Left>114</Left>
                     <Locked>False</Locked>
@@ -1710,7 +1710,7 @@
                     <MinValue>0</MinValue>
                     <Name>sldGamma</Name>
                     <OnChange>sldGamma_OnChange</OnChange>
-                    <Top>111</Top>
+                    <Top>133</Top>
                     <Translated>True</Translated>
                     <Value>100</Value>
                     <Visible>True</Visible>
@@ -1723,7 +1723,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>7</ID>
                     <Image>2160</Image>
                     <Left>8</Left>
@@ -1736,7 +1736,7 @@
                     <Text>Default</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>131</Top>
+                    <Top>157</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>71</Width>
@@ -1748,7 +1748,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>8</ID>
                     <Image>2160</Image>
                     <Left>8</Left>
@@ -1761,7 +1761,7 @@
                     <Text>Load</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>26</Top>
+                    <Top>31</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>71</Width>
@@ -1771,7 +1771,7 @@
                     <Clickable>True</Clickable>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>13</Height>
+                    <Height>15</Height>
                     <ID>9</ID>
                     <Left>115</Left>
                     <Locked>False</Locked>
@@ -1779,7 +1779,7 @@
                     <Text xml:space="preserve">Audio Volume</Text>
                     <TextAlignment>Center</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>11</Top>
+                    <Top>13</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>97</Width>
@@ -1789,7 +1789,7 @@
                     <Clickable>True</Clickable>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>13</Height>
+                    <Height>15</Height>
                     <ID>10</ID>
                     <Left>115</Left>
                     <Locked>False</Locked>
@@ -1797,7 +1797,7 @@
                     <Text xml:space="preserve">Voice Volume</Text>
                     <TextAlignment>Center</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>41</Top>
+                    <Top>49</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>101</Width>
@@ -1807,7 +1807,7 @@
                     <Clickable>True</Clickable>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>13</Height>
+                    <Height>15</Height>
                     <ID>11</ID>
                     <Left>115</Left>
                     <Locked>False</Locked>
@@ -1815,7 +1815,7 @@
                     <Text>Gamma</Text>
                     <TextAlignment>Center</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>95</Top>
+                    <Top>114</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>101</Width>
@@ -1827,7 +1827,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>12</ID>
                     <Image>2162</Image>
                     <Left>113</Left>
@@ -1840,7 +1840,7 @@
                     <Text xml:space="preserve">Text only</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>72</Top>
+                    <Top>86</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>105</Width>
@@ -1852,7 +1852,7 @@
                     <Enabled>True</Enabled>
                     <HandleImage>2166</HandleImage>
                     <HandleOffset>-4</HandleOffset>
-                    <Height>10</Height>
+                    <Height>12</Height>
                     <ID>13</ID>
                     <Left>114</Left>
                     <Locked>False</Locked>
@@ -1860,7 +1860,7 @@
                     <MinValue>10</MinValue>
                     <Name>sldSpeed</Name>
                     <OnChange>sldSpeed_OnChange</OnChange>
-                    <Top>140</Top>
+                    <Top>168</Top>
                     <Translated>True</Translated>
                     <Value>40</Value>
                     <Visible>True</Visible>
@@ -1871,7 +1871,7 @@
                     <Clickable>True</Clickable>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>13</Height>
+                    <Height>15</Height>
                     <ID>14</ID>
                     <Left>115</Left>
                     <Locked>False</Locked>
@@ -1879,7 +1879,7 @@
                     <Text>Speed</Text>
                     <TextAlignment>Center</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>122</Top>
+                    <Top>146</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>101</Width>
@@ -1891,7 +1891,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>15</ID>
                     <Image>2160</Image>
                     <Left>8</Left>
@@ -1904,7 +1904,7 @@
                     <Text>Restart</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>47</Top>
+                    <Top>56</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>71</Width>
@@ -1918,14 +1918,14 @@
                   <BackgroundImage>2168</BackgroundImage>
                   <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>65</Height>
+                  <Height>78</Height>
                   <ID>4</ID>
                   <Left>58</Left>
                   <Name>gRestart</Name>
                   <OnClick />
                   <PopupStyle>PopupModal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
-                  <Top>68</Top>
+                  <Top>81</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
                   <Width>205</Width>
@@ -1936,7 +1936,7 @@
                     <Clickable>True</Clickable>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>27</Height>
+                    <Height>32</Height>
                     <ID>0</ID>
                     <Left>24</Left>
                     <Locked>False</Locked>
@@ -1944,7 +1944,7 @@
                     <Text xml:space="preserve">Are you sure you want to restart?</Text>
                     <TextAlignment>Left</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>6</Top>
+                    <Top>7</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>150</Width>
@@ -1956,7 +1956,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>1</ID>
                     <Image>2160</Image>
                     <Left>10</Left>
@@ -1969,7 +1969,7 @@
                     <Text>Yes</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>37</Top>
+                    <Top>44</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>71</Width>
@@ -1981,7 +1981,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>2</ID>
                     <Image>2160</Image>
                     <Left>123</Left>
@@ -1994,7 +1994,7 @@
                     <Text>No</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>37</Top>
+                    <Top>44</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>71</Width>
@@ -2008,14 +2008,14 @@
                   <BackgroundImage>2167</BackgroundImage>
                   <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>157</Height>
+                  <Height>188</Height>
                   <ID>5</ID>
                   <Left>31</Left>
                   <Name>gSaveGame</Name>
                   <OnClick />
                   <PopupStyle>PopupModal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
-                  <Top>28</Top>
+                  <Top>33</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
                   <Width>259</Width>
@@ -2026,7 +2026,7 @@
                     <Clickable>True</Clickable>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>26</Height>
+                    <Height>31</Height>
                     <ID>0</ID>
                     <Left>8</Left>
                     <Locked>False</Locked>
@@ -2044,7 +2044,7 @@
                     <Clickable>True</Clickable>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>15</Height>
+                    <Height>18</Height>
                     <ID>1</ID>
                     <Left>6</Left>
                     <Locked>False</Locked>
@@ -2053,7 +2053,7 @@
                     <ShowBorder>True</ShowBorder>
                     <Text />
                     <TextColor>19248</TextColor>
-                    <Top>31</Top>
+                    <Top>37</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>170</Width>
@@ -2065,7 +2065,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>2</ID>
                     <Image>2160</Image>
                     <Left>183</Left>
@@ -2078,7 +2078,7 @@
                     <Text>Save</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>82</Top>
+                    <Top>98</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>71</Width>
@@ -2090,7 +2090,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>3</ID>
                     <Image>2160</Image>
                     <Left>183</Left>
@@ -2103,7 +2103,7 @@
                     <Text>Cancel</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>132</Top>
+                    <Top>158</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>71</Width>
@@ -2113,7 +2113,7 @@
                     <Clickable>True</Clickable>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>102</Height>
+                    <Height>122</Height>
                     <ID>4</ID>
                     <Left>6</Left>
                     <Locked>False</Locked>
@@ -2125,7 +2125,7 @@
                     <ShowScrollArrows>True</ShowScrollArrows>
                     <TextAlignment>Left</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>48</Top>
+                    <Top>57</Top>
                     <Translated>False</Translated>
                     <Visible>True</Visible>
                     <Width>170</Width>
@@ -2137,7 +2137,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>5</ID>
                     <Image>2160</Image>
                     <Left>183</Left>
@@ -2150,7 +2150,7 @@
                     <Text>Delete</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>107</Top>
+                    <Top>128</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>71</Width>
@@ -2164,14 +2164,14 @@
                   <BackgroundImage>2167</BackgroundImage>
                   <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>157</Height>
+                  <Height>188</Height>
                   <ID>6</ID>
                   <Left>31</Left>
                   <Name>gRestoreGame</Name>
                   <OnClick />
                   <PopupStyle>PopupModal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
-                  <Top>28</Top>
+                  <Top>33</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
                   <Width>259</Width>
@@ -2182,7 +2182,7 @@
                     <Clickable>True</Clickable>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>26</Height>
+                    <Height>31</Height>
                     <ID>0</ID>
                     <Left>8</Left>
                     <Locked>False</Locked>
@@ -2202,7 +2202,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>1</ID>
                     <Image>2160</Image>
                     <Left>183</Left>
@@ -2215,7 +2215,7 @@
                     <Text>Restore</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>107</Top>
+                    <Top>128</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>71</Width>
@@ -2227,7 +2227,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>2</ID>
                     <Image>2160</Image>
                     <Left>183</Left>
@@ -2240,7 +2240,7 @@
                     <Text>Cancel</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>132</Top>
+                    <Top>158</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>71</Width>
@@ -2250,7 +2250,7 @@
                     <Clickable>True</Clickable>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>119</Height>
+                    <Height>142</Height>
                     <ID>3</ID>
                     <Left>6</Left>
                     <Locked>False</Locked>
@@ -2262,7 +2262,7 @@
                     <ShowScrollArrows>True</ShowScrollArrows>
                     <TextAlignment>Left</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>31</Top>
+                    <Top>37</Top>
                     <Translated>False</Translated>
                     <Visible>True</Visible>
                     <Width>170</Width>
@@ -2408,14 +2408,14 @@
                   <BackgroundImage>2168</BackgroundImage>
                   <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>65</Height>
+                  <Height>78</Height>
                   <ID>8</ID>
                   <Left>58</Left>
                   <Name>gExitGame</Name>
                   <OnClick />
                   <PopupStyle>PopupModal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
-                  <Top>68</Top>
+                  <Top>81</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
                   <Width>205</Width>
@@ -2428,7 +2428,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>0</ID>
                     <Image>2160</Image>
                     <Left>10</Left>
@@ -2441,7 +2441,7 @@
                     <Text>Quit</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>37</Top>
+                    <Top>44</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>71</Width>
@@ -2453,7 +2453,7 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>19</Height>
+                    <Height>22</Height>
                     <ID>1</ID>
                     <Image>2160</Image>
                     <Left>123</Left>
@@ -2466,7 +2466,7 @@
                     <Text>Play</Text>
                     <TextAlignment>MiddleCenter</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>37</Top>
+                    <Top>44</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>71</Width>
@@ -2476,7 +2476,7 @@
                     <Clickable>True</Clickable>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>26</Height>
+                    <Height>31</Height>
                     <ID>2</ID>
                     <Left>24</Left>
                     <Locked>False</Locked>
@@ -2484,7 +2484,7 @@
                     <Text xml:space="preserve">Are you sure you want to quit?</Text>
                     <TextAlignment>Left</TextAlignment>
                     <TextColor>19248</TextColor>
-                    <Top>6</Top>
+                    <Top>7</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>150</Width>
@@ -2503,7 +2503,7 @@
                   <BackgroundImage>190</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>24</ID>
                   <Left>0</Left>
                   <Name>gGame1</Name>
@@ -2524,7 +2524,7 @@
                   <BackgroundImage>189</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>25</ID>
                   <Left>0</Left>
                   <Name>gGame2</Name>
@@ -2545,7 +2545,7 @@
                   <BackgroundImage>188</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>26</ID>
                   <Left>0</Left>
                   <Name>gGame3</Name>
@@ -2566,7 +2566,7 @@
                   <BackgroundImage>187</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>27</ID>
                   <Left>0</Left>
                   <Name>gGame4</Name>
@@ -2587,7 +2587,7 @@
                   <BackgroundImage>186</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>28</ID>
                   <Left>0</Left>
                   <Name>gGame5</Name>
@@ -2608,7 +2608,7 @@
                   <BackgroundImage>185</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>29</ID>
                   <Left>0</Left>
                   <Name>gGame6</Name>
@@ -2629,7 +2629,7 @@
                   <BackgroundImage>184</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>30</ID>
                   <Left>0</Left>
                   <Name>gGame7</Name>
@@ -2650,7 +2650,7 @@
                   <BackgroundImage>183</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>31</ID>
                   <Left>0</Left>
                   <Name>gGame8</Name>
@@ -2671,7 +2671,7 @@
                   <BackgroundImage>182</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>32</ID>
                   <Left>0</Left>
                   <Name>gGame9</Name>
@@ -2692,7 +2692,7 @@
                   <BackgroundImage>181</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>33</ID>
                   <Left>0</Left>
                   <Name>gGame10</Name>
@@ -2713,7 +2713,7 @@
                   <BackgroundImage>180</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>34</ID>
                   <Left>0</Left>
                   <Name>gGame11</Name>
@@ -2734,7 +2734,7 @@
                   <BackgroundImage>179</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>35</ID>
                   <Left>0</Left>
                   <Name>gGame12</Name>
@@ -2755,7 +2755,7 @@
                   <BackgroundImage>178</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>36</ID>
                   <Left>0</Left>
                   <Name>gGame13</Name>
@@ -2776,7 +2776,7 @@
                   <BackgroundImage>177</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>37</ID>
                   <Left>0</Left>
                   <Name>gGame14</Name>
@@ -2797,7 +2797,7 @@
                   <BackgroundImage>176</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>38</ID>
                   <Left>0</Left>
                   <Name>gGame15</Name>
@@ -2818,7 +2818,7 @@
                   <BackgroundImage>175</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>39</ID>
                   <Left>0</Left>
                   <Name>gGame16</Name>
@@ -2839,7 +2839,7 @@
                   <BackgroundImage>174</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>40</ID>
                   <Left>0</Left>
                   <Name>gGame17</Name>
@@ -2860,7 +2860,7 @@
                   <BackgroundImage>173</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>41</ID>
                   <Left>0</Left>
                   <Name>gGame18</Name>
@@ -2881,7 +2881,7 @@
                   <BackgroundImage>172</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>42</ID>
                   <Left>0</Left>
                   <Name>gGame19</Name>
@@ -2902,7 +2902,7 @@
                   <BackgroundImage>171</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>43</ID>
                   <Left>0</Left>
                   <Name>gGame20</Name>
@@ -2923,7 +2923,7 @@
                   <BackgroundImage>170</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>44</ID>
                   <Left>0</Left>
                   <Name>gGame21</Name>
@@ -2944,7 +2944,7 @@
                   <BackgroundImage>169</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>45</ID>
                   <Left>0</Left>
                   <Name>gGame22</Name>
@@ -2965,7 +2965,7 @@
                   <BackgroundImage>168</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>46</ID>
                   <Left>0</Left>
                   <Name>gGame23</Name>
@@ -2986,7 +2986,7 @@
                   <BackgroundImage>167</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>47</ID>
                   <Left>0</Left>
                   <Name>gGame24</Name>
@@ -3007,7 +3007,7 @@
                   <BackgroundImage>166</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>48</ID>
                   <Left>0</Left>
                   <Name>gGame25</Name>
@@ -3028,7 +3028,7 @@
                   <BackgroundImage>165</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>49</ID>
                   <Left>0</Left>
                   <Name>gGame26</Name>
@@ -3049,7 +3049,7 @@
                   <BackgroundImage>164</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>50</ID>
                   <Left>0</Left>
                   <Name>gGame27</Name>
@@ -3070,7 +3070,7 @@
                   <BackgroundImage>163</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>51</ID>
                   <Left>0</Left>
                   <Name>gGame28</Name>
@@ -3091,7 +3091,7 @@
                   <BackgroundImage>162</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>52</ID>
                   <Left>0</Left>
                   <Name>gGame29</Name>
@@ -3112,7 +3112,7 @@
                   <BackgroundImage>161</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>53</ID>
                   <Left>0</Left>
                   <Name>gGame30</Name>
@@ -3133,7 +3133,7 @@
                   <BackgroundImage>160</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>500</Height>
+                  <Height>600</Height>
                   <ID>54</ID>
                   <Left>0</Left>
                   <Name>gGame31</Name>
@@ -3514,9 +3514,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>157</StartX>
+            <StartX>179</StartX>
             <StartY>254</StartY>
-            <StartingRoom>8</StartingRoom>
+            <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>

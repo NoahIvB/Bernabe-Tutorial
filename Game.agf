@@ -658,6 +658,10 @@
           </UnloadedRoom>
           <UnloadedRoom>
             <Description IsNull="True" />
+            <Number>7</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
             <Number>2</Number>
           </UnloadedRoom>
           <UnloadedRoom>
@@ -675,10 +679,6 @@
           <UnloadedRoom>
             <Description IsNull="True" />
             <Number>6</Number>
-          </UnloadedRoom>
-          <UnloadedRoom>
-            <Description IsNull="True" />
-            <Number>7</Number>
           </UnloadedRoom>
           <UnloadedRoom>
             <Description IsNull="True" />
@@ -2500,12 +2500,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>190</BackgroundImage>
+                  <BackgroundImage>221</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>24</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame1</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2513,7 +2513,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2521,12 +2521,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>189</BackgroundImage>
+                  <BackgroundImage>220</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>25</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame2</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2534,7 +2534,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2542,12 +2542,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>188</BackgroundImage>
+                  <BackgroundImage>219</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>26</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame3</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2555,7 +2555,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2563,12 +2563,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>187</BackgroundImage>
+                  <BackgroundImage>218</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>27</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame4</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2576,7 +2576,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2584,12 +2584,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>186</BackgroundImage>
+                  <BackgroundImage>217</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>28</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame5</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2597,7 +2597,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2605,12 +2605,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>185</BackgroundImage>
+                  <BackgroundImage>216</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>29</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame6</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2618,7 +2618,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2626,12 +2626,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>184</BackgroundImage>
+                  <BackgroundImage>215</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>30</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame7</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2639,7 +2639,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2647,12 +2647,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>183</BackgroundImage>
+                  <BackgroundImage>214</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>31</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame8</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2660,7 +2660,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2668,12 +2668,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>182</BackgroundImage>
+                  <BackgroundImage>213</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>32</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame9</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2681,7 +2681,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2689,12 +2689,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>181</BackgroundImage>
+                  <BackgroundImage>212</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>33</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame10</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2702,7 +2702,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2710,12 +2710,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>180</BackgroundImage>
+                  <BackgroundImage>211</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>34</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame11</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2723,7 +2723,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2731,12 +2731,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>179</BackgroundImage>
+                  <BackgroundImage>210</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>35</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame12</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2744,7 +2744,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2752,12 +2752,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>178</BackgroundImage>
+                  <BackgroundImage>209</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>36</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame13</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2765,7 +2765,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2773,12 +2773,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>177</BackgroundImage>
+                  <BackgroundImage>208</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>37</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame14</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2786,7 +2786,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2794,12 +2794,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>176</BackgroundImage>
+                  <BackgroundImage>207</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>38</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame15</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2807,7 +2807,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2815,12 +2815,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>175</BackgroundImage>
+                  <BackgroundImage>206</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>39</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame16</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2828,7 +2828,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2836,12 +2836,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>174</BackgroundImage>
+                  <BackgroundImage>205</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>40</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame17</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2849,7 +2849,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2857,12 +2857,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>173</BackgroundImage>
+                  <BackgroundImage>204</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>41</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame18</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2870,7 +2870,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2878,12 +2878,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>172</BackgroundImage>
+                  <BackgroundImage>203</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>42</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame19</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2891,7 +2891,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2899,12 +2899,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>171</BackgroundImage>
+                  <BackgroundImage>202</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>43</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame20</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2912,7 +2912,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2920,12 +2920,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>170</BackgroundImage>
+                  <BackgroundImage>201</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>44</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame21</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2933,7 +2933,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2941,12 +2941,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>169</BackgroundImage>
+                  <BackgroundImage>200</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>45</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame22</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2954,7 +2954,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2962,12 +2962,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>168</BackgroundImage>
+                  <BackgroundImage>199</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>46</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame23</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2975,7 +2975,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -2983,12 +2983,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>167</BackgroundImage>
+                  <BackgroundImage>198</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>47</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame24</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -2996,7 +2996,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -3004,12 +3004,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>166</BackgroundImage>
+                  <BackgroundImage>197</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>48</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame25</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -3017,7 +3017,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -3025,12 +3025,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>165</BackgroundImage>
+                  <BackgroundImage>196</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>49</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame26</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -3038,7 +3038,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -3046,12 +3046,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>164</BackgroundImage>
+                  <BackgroundImage>195</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>50</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame27</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -3059,7 +3059,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -3067,12 +3067,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>163</BackgroundImage>
+                  <BackgroundImage>194</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>51</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame28</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -3080,7 +3080,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -3088,12 +3088,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>162</BackgroundImage>
+                  <BackgroundImage>193</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>52</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame29</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -3101,7 +3101,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -3109,12 +3109,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>161</BackgroundImage>
+                  <BackgroundImage>192</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>53</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame30</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -3122,7 +3122,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -3130,12 +3130,12 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>160</BackgroundImage>
+                  <BackgroundImage>191</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>600</Height>
+                  <Height>200</Height>
                   <ID>54</ID>
-                  <Left>0</Left>
+                  <Left>89</Left>
                   <Name>gGame31</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
@@ -3143,7 +3143,7 @@
                   <Top>0</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
-                  <Width>351</Width>
+                  <Width>140</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
                 <Controls />
@@ -3516,7 +3516,7 @@
             <SpeechView>0</SpeechView>
             <StartX>179</StartX>
             <StartY>254</StartY>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>9</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -7449,13 +7449,13 @@ stop
                   <SpriteFolder Name="WaldoMinigame">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="156" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="156" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-35.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-35.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7464,13 +7464,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="157" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="157" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-34.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-34.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7479,13 +7479,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="158" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="158" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-33.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-33.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7494,13 +7494,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="159" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="159" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-32.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-32.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7509,13 +7509,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="160" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="191" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-31.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-31.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7524,13 +7524,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="161" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="192" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-30.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-30.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7539,13 +7539,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="162" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="193" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-29.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-29.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7554,13 +7554,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="163" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="194" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-28.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-28.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7569,13 +7569,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="164" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="195" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-27.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-27.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7584,13 +7584,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="165" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="196" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-26.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-26.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7599,13 +7599,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="166" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="197" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-25.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-25.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7614,13 +7614,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="167" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="198" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-24.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-24.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7629,13 +7629,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="168" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="199" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-23.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-23.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7644,13 +7644,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="169" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="200" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-22.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-22.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7659,13 +7659,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="170" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="201" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-21.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-21.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7674,13 +7674,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="171" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="202" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-20.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-20.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7689,13 +7689,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="172" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="203" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-19.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-19.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7704,13 +7704,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="173" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="204" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-18.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-18.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7719,13 +7719,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="174" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="205" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-17.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-17.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7734,13 +7734,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="175" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="206" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-16.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-16.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7749,13 +7749,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="176" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="207" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-15.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-15.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7764,13 +7764,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="177" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="208" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-14.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-14.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7779,13 +7779,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="178" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="209" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-13.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-13.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7794,13 +7794,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="179" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="210" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-12.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-12.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7809,13 +7809,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="180" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="211" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-11.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-11.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7824,13 +7824,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="181" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="212" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-10.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-10.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7839,13 +7839,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="182" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="213" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-9.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-9.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7854,13 +7854,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="183" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="214" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-8.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-8.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7869,13 +7869,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="184" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="215" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-7.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-7.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7884,13 +7884,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="185" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="216" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-6.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-6.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7899,13 +7899,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="186" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="217" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-5.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-5.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7914,13 +7914,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="187" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="218" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-4.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-4.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7929,13 +7929,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="188" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="219" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-3.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-3.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7944,13 +7944,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="189" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="220" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-2.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-2.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7959,13 +7959,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="190" Width="351" Height="500" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="221" Width="140" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\LevelStartUp-1.png.png</FileName>
+                          <FileName>C:\Users\nbernabe\Downloads\FindWaldo-1.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>500</ImportHeight>
-                          <ImportWidth>351</ImportWidth>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>140</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>

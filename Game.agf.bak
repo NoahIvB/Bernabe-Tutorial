@@ -692,6 +692,10 @@
             <Description IsNull="True" />
             <Number>10</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>11</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -3264,6 +3268,137 @@
               </GUIMain>
             </GUIs>
           </GUIFolder>
+          <GUIFolder Name="TargetCaught">
+            <SubFolders />
+            <GUIs>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>174</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>60</ID>
+                  <Left>0</Left>
+                  <Name>gTargetCaught1</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>173</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>61</ID>
+                  <Left>0</Left>
+                  <Name>gTargetCaught2</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>172</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>62</ID>
+                  <Left>0</Left>
+                  <Name>gTargetCaught3</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>171</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>63</ID>
+                  <Left>0</Left>
+                  <Name>gTargetCaught4</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>170</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>64</ID>
+                  <Left>0</Left>
+                  <Name>gTargetCaught5</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>169</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>65</ID>
+                  <Left>0</Left>
+                  <Name>gTargetCaught6</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+            </GUIs>
+          </GUIFolder>
         </SubFolders>
         <GUIs />
       </GUIFolder>
@@ -3630,7 +3765,7 @@
             <SpeechView>0</SpeechView>
             <StartX>179</StartX>
             <StartY>254</StartY>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>10</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -8751,6 +8886,101 @@ stop
                       <Sprite Slot="164" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
                           <FileName>C:\Users\nbernabe\Downloads\colors-1.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="Target Caughts">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="169" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Target Caught-6.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="170" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Target Caught-5.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="171" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Target Caught-4.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="172" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Target Caught-3.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="173" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Target Caught-2.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="174" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Target Caught-1.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>200</ImportHeight>

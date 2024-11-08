@@ -696,6 +696,10 @@
             <Description IsNull="True" />
             <Number>11</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>12</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -3386,6 +3390,284 @@
                   <ID>65</ID>
                   <Left>0</Left>
                   <Name>gTargetCaught6</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+            </GUIs>
+          </GUIFolder>
+          <GUIFolder Name="Chapter2Transition">
+            <SubFolders />
+            <GUIs>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>187</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>66</ID>
+                  <Left>0</Left>
+                  <Name>gCH2_1</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>186</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>67</ID>
+                  <Left>0</Left>
+                  <Name>gCH2_2</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>185</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>68</ID>
+                  <Left>0</Left>
+                  <Name>gCH2_3</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>184</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>69</ID>
+                  <Left>0</Left>
+                  <Name>gCH2_4</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>183</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>70</ID>
+                  <Left>0</Left>
+                  <Name>gCH2_5</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>182</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>71</ID>
+                  <Left>0</Left>
+                  <Name>gCH2_6</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>181</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>72</ID>
+                  <Left>0</Left>
+                  <Name>gCH2_7</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>180</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>73</ID>
+                  <Left>0</Left>
+                  <Name>gCH2_8</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>179</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>74</ID>
+                  <Left>0</Left>
+                  <Name>gCH2_9</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>178</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>75</ID>
+                  <Left>0</Left>
+                  <Name>gCH2_10</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>177</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>76</ID>
+                  <Left>0</Left>
+                  <Name>gCH2_11</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>176</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>77</ID>
+                  <Left>0</Left>
+                  <Name>gCH2_12</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>175</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>78</ID>
+                  <Left>0</Left>
+                  <Name>gCH2_13</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
@@ -8981,6 +9263,206 @@ stop
                       <Sprite Slot="174" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
                           <FileName>C:\Users\nbernabe\Downloads\Target Caught-1.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="Chapter2Transition">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="175" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Ch2-13.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="176" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Ch2-12.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="177" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Ch2-11.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="178" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Ch2-10.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="179" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Ch2-9.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="180" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Ch2-8.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="181" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Ch2-7.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="182" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Ch2-6.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="183" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Ch2-5.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="184" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Ch2-4.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="185" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Ch2-3.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="186" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Ch2-2.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="187" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\Ch2-1.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>200</ImportHeight>

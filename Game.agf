@@ -4047,7 +4047,7 @@
             <SpeechView>0</SpeechView>
             <StartX>179</StartX>
             <StartY>254</StartY>
-            <StartingRoom>10</StartingRoom>
+            <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -4522,34 +4522,6 @@ stop
           </Dialog>
           <Dialog>
             <ID>6</ID>
-            <Name>dWindow2Climb</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-return
-@1
-run-script 4
-stop
-@2
-stop
-]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Say>False</Say>
-                <Show>True</Show>
-                <Text xml:space="preserve">Go back inside?</Text>
-              </DialogOption>
-              <DialogOption>
-                <ID>2</ID>
-                <Say>False</Say>
-                <Show>True</Show>
-                <Text>Back</Text>
-              </DialogOption>
-            </DialogOptions>
-          </Dialog>
-          <Dialog>
-            <ID>7</ID>
             <Name>dWaspNestEntrance</Name>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file

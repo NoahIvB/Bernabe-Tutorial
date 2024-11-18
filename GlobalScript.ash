@@ -4,3 +4,4 @@
 // scripts.
 import function FirstCrimeScene();
 import function Cutscene1();
+import function CrimeScene1Entry();

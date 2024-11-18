@@ -3686,7 +3686,80 @@
             </GUIs>
           </GUIFolder>
         </SubFolders>
-        <GUIs />
+        <GUIs>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BorderColor>0</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>200</Height>
+              <ID>79</ID>
+              <Left>0</Left>
+              <Name>gStartScreen</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>True</Visible>
+              <Width>320</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>28</Height>
+                <ID>0</ID>
+                <Image>227</Image>
+                <Left>129</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>226</MouseoverImage>
+                <Name>StartButton1</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>StartButton1_OnClick</OnClick>
+                <PushedImage>225</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>131</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>62</Width>
+                <ZOrder>0</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>28</Height>
+                <ID>1</ID>
+                <Image>230</Image>
+                <Left>129</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>229</MouseoverImage>
+                <Name>Button1</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Button1_OnClick</OnClick>
+                <PushedImage>228</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>162</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>62</Width>
+                <ZOrder>1</ZOrder>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+        </GUIs>
       </GUIFolder>
     </GUIs>
     <InventoryItems>
@@ -4292,11 +4365,11 @@
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-cContact: You're late.
+cContact: We're here
 cEgo: Yeah yeah... what's the rundown?
 cContact: The same as it was the last 4 times.
-cEgo: Seriously, again?
-cContact: If you don't believe me, go check yourself. Might be something actually worth looking into.
+cEgo: Seriously, how much did I miss?
+cContact: Too much. Now get in there and investigate.
 return
 ]]></Script>
             <DialogOptions />
@@ -4996,6 +5069,16 @@ stop
         <GlobalVariable>
           <DefaultValue>0</DefaultValue>
           <Name>CrimeScene1</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>CrimeScene1Access</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>Entry1</Name>
           <Type>int</Type>
         </GlobalVariable>
       </Variables>
@@ -6445,66 +6528,6 @@ stop
                   <SpriteFolder Name="TitleScreenUI">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="51" Width="62" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\New Piskel-2.png.png</FileName>
-                          <OffsetX>0</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>29</ImportHeight>
-                          <ImportWidth>62</ImportWidth>
-                          <ImportAsTile>False</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="52" Width="62" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\New Piskel-1.png.png</FileName>
-                          <OffsetX>0</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>29</ImportHeight>
-                          <ImportWidth>62</ImportWidth>
-                          <ImportAsTile>False</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="53" Width="57" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\New Piskel-4.png.png</FileName>
-                          <OffsetX>0</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>29</ImportHeight>
-                          <ImportWidth>57</ImportWidth>
-                          <ImportAsTile>False</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="54" Width="57" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>C:\Users\nbernabe\Downloads\New Piskel-3.png.png</FileName>
-                          <OffsetX>0</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>29</ImportHeight>
-                          <ImportWidth>57</ImportWidth>
-                          <ImportAsTile>False</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
                       <Sprite Slot="55" Width="286" Height="74" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
                           <FileName>C:\Users\nbernabe\Downloads\New Piskel-1.png (1).png</FileName>
@@ -6512,6 +6535,96 @@ stop
                           <OffsetY>0</OffsetY>
                           <ImportHeight>74</ImportHeight>
                           <ImportWidth>286</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="225" Width="62" Height="28" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\NewStartButton-3.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>28</ImportHeight>
+                          <ImportWidth>62</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="226" Width="62" Height="28" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\NewStartButton-2.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>28</ImportHeight>
+                          <ImportWidth>62</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="227" Width="62" Height="28" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\NewStartButton-1.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>28</ImportHeight>
+                          <ImportWidth>62</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="228" Width="62" Height="28" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\NewQuitButton-6.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>28</ImportHeight>
+                          <ImportWidth>62</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="229" Width="62" Height="28" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\NewQuitButton-5.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>28</ImportHeight>
+                          <ImportWidth>62</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="230" Width="62" Height="28" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\NewQuitButton-4.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>28</ImportHeight>
+                          <ImportWidth>62</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7834,6 +7947,141 @@ stop
                       <Sprite Slot="50" Width="34" Height="55" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
                           <FileName>C:\Users\nbernabe\Downloads\Contact-1.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>55</ImportHeight>
+                          <ImportWidth>34</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="51" Width="34" Height="55" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\ContactWalkLeft-4.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>55</ImportHeight>
+                          <ImportWidth>34</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="52" Width="34" Height="55" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\ContactWalkLeft-3.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>55</ImportHeight>
+                          <ImportWidth>34</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="53" Width="34" Height="55" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\ContactWalkLeft-2.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>55</ImportHeight>
+                          <ImportWidth>34</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="54" Width="34" Height="55" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\ContactWalkLeft-1.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>55</ImportHeight>
+                          <ImportWidth>34</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="231" Width="34" Height="55" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\ContactWalkRight-4.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>55</ImportHeight>
+                          <ImportWidth>34</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="232" Width="34" Height="55" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\ContactWalkRight-3.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>55</ImportHeight>
+                          <ImportWidth>34</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="233" Width="34" Height="55" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\ContactWalkRight-2.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>55</ImportHeight>
+                          <ImportWidth>34</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="234" Width="34" Height="55" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\ContactWalkRight-1.png.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>55</ImportHeight>
+                          <ImportWidth>34</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="235" Width="34" Height="55" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\nbernabe\Downloads\ContactLeft-1.png.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>55</ImportHeight>
@@ -10320,7 +10568,35 @@ stop
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>0</Image>
+                    <Image>235</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>54</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>53</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>52</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>4</ID>
+                    <Image>51</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -10333,7 +10609,35 @@ stop
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>0</Image>
+                    <Image>36</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>234</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>233</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>232</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>4</ID>
+                    <Image>231</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>

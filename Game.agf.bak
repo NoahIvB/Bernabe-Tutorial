@@ -653,56 +653,60 @@
         <SubFolders />
         <UnloadedRooms>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>Title</Description>
             <Number>1</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>Office1</Description>
+            <Number>13</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description>Case1</Description>
             <Number>7</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>OutsideWaspNest</Description>
             <Number>2</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>WaspNest</Description>
             <Number>3</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>BackroomHomicide</Description>
             <Number>4</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>Alley</Description>
             <Number>5</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>WaldoCutscene</Description>
             <Number>6</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>Chase</Description>
             <Number>8</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>Minigame1</Description>
             <Number>9</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>Minigame2</Description>
             <Number>10</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>Case2</Description>
             <Number>11</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>Office2</Description>
             <Number>12</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
-            <Number>13</Number>
+            <Description>DeskGuess</Description>
+            <Number>14</Number>
           </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>

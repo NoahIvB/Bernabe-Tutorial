@@ -1,1 +1,13 @@
-Game : (room:2) Dialog: all options have been turned off, stopping dialog.
+Game : (room:12)[R 6] Warning: blocking Say call during fade-out.
+Game : (room:12)[R 6] Wait() was used in Player Enters Screen - use Enters Screen After Fadein instead
+Game : (room:12)[R 7] Warning: blocking Say call during fade-out.
+Game : (room:12)[R 8] Warning: blocking Say call during fade-out.
+Game : (room:12)[R 9] Warning: blocking Say call during fade-out.
+Game : (room:12)[R 10] Warning: blocking Say call during fade-out.
+Game : (room:12)[R 11] Warning: blocking Say call during fade-out.
+Game : (room:12)[R 12] Warning: blocking Say call during fade-out.
+Game : (room:12)[R 13] Warning: blocking Say call during fade-out.
+Game : (room:12)[R 14] Warning: blocking Say call during fade-out.
+Game : (room:12)[R 15] Warning: blocking Say call during fade-out.
+Game : (room:12)[R 16] Warning: blocking Say call during fade-out.
+Game : (room:12)[R 17] Warning: blocking Say call during fade-out.

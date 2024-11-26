@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>8</AudioIndexer>
+      <AudioIndexer>16</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets xml:space="preserve">Windows, Web</BuildTargets>
@@ -11548,6 +11548,45 @@ See KeyboardMovement.txt for details.
                 <Type>2</Type>
                 <FileLastModifiedDate>2024-10-04 21:56:39Z</FileLastModifiedDate>
               </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>8</ID>
+                <Index>13</Index>
+                <ScriptName>aMinigameMusic</ScriptName>
+                <SourceFileName>C:\Users\nbernabe\Downloads\448762__razor5__short-techno.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-11-26 16:24:11Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>10</ID>
+                <Index>15</Index>
+                <ScriptName>aDeskGuessMusic</ScriptName>
+                <SourceFileName>C:\Users\nbernabe\Downloads\220329__b_lamerichs__bas-23022014-3-game-loop-2.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-11-26 16:34:40Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>11</ID>
+                <Index>16</Index>
+                <ScriptName>aRoom15Music</ScriptName>
+                <SourceFileName>C:\Users\nbernabe\Downloads\341865__foolboymedia__tunnels.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-11-26 16:42:09Z</FileLastModifiedDate>
+              </AudioClip>
             </AudioClips>
             <AudioClipFolder>
               <DefaultBundlingType>InSeparateVOX</DefaultBundlingType>
@@ -11585,6 +11624,45 @@ See KeyboardMovement.txt for details.
                 <SourceFileName>C:\Users\nbernabe\Downloads\RPReplay_Final1728022094.mp3</SourceFileName>
                 <Type>3</Type>
                 <FileLastModifiedDate>2024-10-04 06:30:21Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>6</ID>
+                <Index>9</Index>
+                <ScriptName>aMinigameStart</ScriptName>
+                <SourceFileName>C:\Users\nbernabe\Downloads\RPReplay_Final1732637378.mp3</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-11-26 16:13:26Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>7</ID>
+                <Index>12</Index>
+                <ScriptName>aStatic</ScriptName>
+                <SourceFileName>C:\Users\nbernabe\Downloads\35291__jace__continuous-static.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-11-26 16:20:58Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>9</ID>
+                <Index>14</Index>
+                <ScriptName>aCage</ScriptName>
+                <SourceFileName>C:\Users\nbernabe\Downloads\80449__turtlelg__jaildoorclose.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-11-26 16:28:29Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>

@@ -653,10 +653,6 @@
         <SubFolders />
         <UnloadedRooms>
           <UnloadedRoom>
-            <Description xml:space="preserve">Low-Fi Room</Description>
-            <Number>16</Number>
-          </UnloadedRoom>
-          <UnloadedRoom>
             <Description>Title</Description>
             <Number>1</Number>
           </UnloadedRoom>
@@ -3735,7 +3731,7 @@
               <PopupYPos>0</PopupYPos>
               <Top>0</Top>
               <Transparency>0</Transparency>
-              <Visible>False</Visible>
+              <Visible>True</Visible>
               <Width>320</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
@@ -4481,7 +4477,7 @@
             <SpeechView>0</SpeechView>
             <StartX>179</StartX>
             <StartY>254</StartY>
-            <StartingRoom>16</StartingRoom>
+            <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>

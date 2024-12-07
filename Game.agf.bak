@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>16</AudioIndexer>
+      <AudioIndexer>32</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets xml:space="preserve">Windows, Web</BuildTargets>
@@ -652,6 +652,10 @@
       <UnloadedRoomFolder Name="Main">
         <SubFolders />
         <UnloadedRooms>
+          <UnloadedRoom>
+            <Description xml:space="preserve">Low-Fi Room</Description>
+            <Number>16</Number>
+          </UnloadedRoom>
           <UnloadedRoom>
             <Description>Title</Description>
             <Number>1</Number>
@@ -3731,7 +3735,7 @@
               <PopupYPos>0</PopupYPos>
               <Top>0</Top>
               <Transparency>0</Transparency>
-              <Visible>True</Visible>
+              <Visible>False</Visible>
               <Width>320</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
@@ -4477,7 +4481,7 @@
             <SpeechView>0</SpeechView>
             <StartX>179</StartX>
             <StartY>254</StartY>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>16</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -10742,6 +10746,296 @@ stop
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="Lofi">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="242" Width="50" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\New_Piskel_9.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>40</ImportHeight>
+                  <ImportWidth>50</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="243" Width="30" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\New_Piskel_12.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>50</ImportHeight>
+                  <ImportWidth>30</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="244" Width="30" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\New_Piskel_13.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>50</ImportHeight>
+                  <ImportWidth>30</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="245" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\New_Piskel_10.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>320</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="246" Width="96" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\VictoryFanfare-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>96</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="247" Width="96" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\toZanarkand-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>96</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="248" Width="96" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\SongofStormsMikel-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>96</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="249" Width="96" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\Shop Slofi-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>96</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="250" Width="96" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\preludeColosia-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>96</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="251" Width="96" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\LofiRaingirlcat-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>96</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="252" Width="96" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\IslandBounceHenry-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>96</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="253" Width="96" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\I'm YoursLofiFruits-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>96</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="254" Width="96" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\HotelCollosia-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>96</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="255" Width="96" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\ShinjukuCorp-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>96</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="256" Width="96" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\FullMoonCorp-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>96</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="257" Width="96" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\MikelDragonRoost-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>96</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="258" Width="96" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\ProbeChemicalPLant-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>96</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="259" Width="96" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\TollanKim-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>96</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="260" Width="96" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\nbernabe\Downloads\DomKnow-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>96</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="32" Resolution="Real" AlphaChannel="False">
@@ -11494,7 +11788,215 @@ See KeyboardMovement.txt for details.
       <AudioClipFolder Name="Main">
         <SubFolders>
           <AudioClipFolder Name="Music">
-            <SubFolders />
+            <SubFolders>
+              <AudioClipFolder Name="LofiSongs">
+                <SubFolders />
+                <AudioClips>
+                  <AudioClip>
+                    <BundlingType>InSeparateVOX</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>MP3</FileType>
+                    <ID>12</ID>
+                    <Index>17</Index>
+                    <ScriptName>aLofi1</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\nbernabe\Downloads\SpotiDown.App - Lofi - Domknowz.mp3</SourceFileName>
+                    <Type>2</Type>
+                    <FileLastModifiedDate>2024-12-07 14:19:08Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InSeparateVOX</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>MP3</FileType>
+                    <ID>13</ID>
+                    <Index>19</Index>
+                    <ScriptName>aLofi2</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\nbernabe\Downloads\SpotiDown.App - lofi rain - a girl and a cat.mp3</SourceFileName>
+                    <Type>2</Type>
+                    <FileLastModifiedDate>2024-12-07 14:20:22Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InSeparateVOX</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>MP3</FileType>
+                    <ID>14</ID>
+                    <Index>20</Index>
+                    <ScriptName>aLofi3</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\nbernabe\Downloads\SpotiDown.App - I'm Yours - Lofi Fruits Music.mp3</SourceFileName>
+                    <Type>2</Type>
+                    <FileLastModifiedDate>2024-12-07 14:21:39Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InSeparateVOX</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>MP3</FileType>
+                    <ID>15</ID>
+                    <Index>21</Index>
+                    <ScriptName>aLofi4</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\nbernabe\Downloads\SpotiDown.App - Shinjuku Gyoen - 猫 シ Corp..mp3</SourceFileName>
+                    <Type>2</Type>
+                    <FileLastModifiedDate>2024-12-07 14:22:44Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InSeparateVOX</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>MP3</FileType>
+                    <ID>16</ID>
+                    <Index>22</Index>
+                    <ScriptName>aLofi5</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\nbernabe\Downloads\SpotiDown.App - Full Moon - 猫 シ Corp..mp3</SourceFileName>
+                    <Type>2</Type>
+                    <FileLastModifiedDate>2024-12-07 14:24:03Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InSeparateVOX</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>MP3</FileType>
+                    <ID>17</ID>
+                    <Index>23</Index>
+                    <ScriptName>aLofi6</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\nbernabe\Downloads\SpotiDown.App - Lofi - Tollan Kim.mp3</SourceFileName>
+                    <Type>2</Type>
+                    <FileLastModifiedDate>2024-12-07 14:24:30Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InSeparateVOX</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>MP3</FileType>
+                    <ID>18</ID>
+                    <Index>24</Index>
+                    <ScriptName>aLofi7</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\nbernabe\Downloads\SpotiDown.App - Island Bounce - Hi Hat Henry.mp3</SourceFileName>
+                    <Type>2</Type>
+                    <FileLastModifiedDate>2024-12-07 14:27:20Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InSeparateVOX</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>MP3</FileType>
+                    <ID>19</ID>
+                    <Index>25</Index>
+                    <ScriptName>aLofi8</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\nbernabe\Downloads\SpotiDown.App - Dragon Roost Island - Mikel.mp3</SourceFileName>
+                    <Type>2</Type>
+                    <FileLastModifiedDate>2024-12-07 14:28:04Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InSeparateVOX</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>MP3</FileType>
+                    <ID>20</ID>
+                    <Index>26</Index>
+                    <ScriptName>aLofi9</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\nbernabe\Downloads\SpotiDown.App - Song of Storms - Mikel.mp3</SourceFileName>
+                    <Type>2</Type>
+                    <FileLastModifiedDate>2024-12-07 14:29:09Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InSeparateVOX</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>MP3</FileType>
+                    <ID>21</ID>
+                    <Index>27</Index>
+                    <ScriptName>aLofi10</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\nbernabe\Downloads\SpotiDown.App - Chemical Plant Zone - Probe.mp3</SourceFileName>
+                    <Type>2</Type>
+                    <FileLastModifiedDate>2024-12-07 14:31:45Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InSeparateVOX</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>MP3</FileType>
+                    <ID>22</ID>
+                    <Index>28</Index>
+                    <ScriptName>aLofi11</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\nbernabe\Downloads\SpotiDown.App - Hotel (From _Undertale_) [LoFi Version] - Collosia.mp3</SourceFileName>
+                    <Type>2</Type>
+                    <FileLastModifiedDate>2024-12-07 14:32:29Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InSeparateVOX</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>MP3</FileType>
+                    <ID>23</ID>
+                    <Index>29</Index>
+                    <ScriptName>aLofi12</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\nbernabe\Downloads\SpotiDown.App - Shop (From _Undertale_) [Lofi Version] - Slofi.mp3</SourceFileName>
+                    <Type>2</Type>
+                    <FileLastModifiedDate>2024-12-07 14:33:46Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InSeparateVOX</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>MP3</FileType>
+                    <ID>24</ID>
+                    <Index>30</Index>
+                    <ScriptName>aLofi13</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\nbernabe\Downloads\SpotiDown.App - Prelude (From _Final Fantasy 7_) [LoFi Version] - Collosia.mp3</SourceFileName>
+                    <Type>2</Type>
+                    <FileLastModifiedDate>2024-12-07 14:37:28Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InSeparateVOX</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>MP3</FileType>
+                    <ID>25</ID>
+                    <Index>31</Index>
+                    <ScriptName>aLofi14</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\nbernabe\Downloads\SpotiDown.App - Victory Fanfare (From _Final Fantasy 7_) [LoFi Version] - Collosia.mp3</SourceFileName>
+                    <Type>2</Type>
+                    <FileLastModifiedDate>2024-12-07 14:38:05Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InSeparateVOX</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>MP3</FileType>
+                    <ID>26</ID>
+                    <Index>32</Index>
+                    <ScriptName>aLofi15</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\nbernabe\Downloads\SpotiDown.App - To Zanarkand Lofi - Rifti Beats.mp3</SourceFileName>
+                    <Type>2</Type>
+                    <FileLastModifiedDate>2024-12-07 14:38:35Z</FileLastModifiedDate>
+                  </AudioClip>
+                </AudioClips>
+                <AudioClipFolder>
+                  <DefaultBundlingType>InSeparateVOX</DefaultBundlingType>
+                  <DefaultPriority>Inherit</DefaultPriority>
+                  <DefaultRepeat>Inherit</DefaultRepeat>
+                  <DefaultType>2</DefaultType>
+                  <DefaultVolume>100</DefaultVolume>
+                </AudioClipFolder>
+              </AudioClipFolder>
+            </SubFolders>
             <AudioClips>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
